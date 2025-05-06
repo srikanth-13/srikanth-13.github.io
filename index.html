@@ -57,6 +57,7 @@
             <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
             <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
             <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
             <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -220,7 +221,70 @@
         </div>
       </div>
     </section>
+<!--Projects starts-->
+<!-- Projects Section -->
+<!-- Projects Section -->
+<section id="projects" class="py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center mb-4">Projects</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
 
+      <!-- Project 1 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm p-3">
+          <div class="card-body">
+            <h4 class="card-title" style="border-bottom: 2px solid #333; padding-bottom: 5px;">
+              E-commerce Microservices Platform on Kubernetes
+            </h4>
+            <hr class="mb-3">
+            <ul class="list-unstyled mb-2">
+              <li><strong>Role:</strong> Cloud & DevOps Engineer</li>
+              <li><strong>Stack:</strong> Kubernetes, Jenkins, Artifactory, Django, Celery, Docker, Git, Redis, Elasticsearch</li>
+              <li><strong>Overview:</strong> Designed and managed a scalable e-commerce application running on Kubernetes with Django-based microservices architecture.</li>
+            </ul>
+            <p><strong>Key Contributions:</strong></p>
+            <ul>
+              <li>Deployed and orchestrated frontend and backend Django services as Kubernetes pods.</li>
+              <li>Configured <strong>autoscaling</strong> for Celery workers to process background tasks efficiently under load.</li>
+              <li>Set up a <strong>CI/CD pipeline</strong> with Jenkins and Artifactory to streamline deployments and maintain version control.</li>
+              <li>Ensured resilient infrastructure using Kubernetes probes and rolling update strategies.</li>
+              <li>Integrated <strong>Redis</strong> and <strong>Elasticsearch</strong> for caching and advanced search capabilities.</li>
+              <li>Configured monitoring with <strong>Prometheus</strong>, <strong>Grafana</strong>, and <strong>ELK stack</strong> as per client requirements.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm p-3">
+          <div class="card-body">
+            <h4 class="card-title" style="border-bottom: 2px solid #333; padding-bottom: 5px;">
+              High-Availability PHP Application Stack
+            </h4>
+            <hr class="mb-3">
+            <ul class="list-unstyled mb-2">
+              <li><strong>Role:</strong> Cloud & DevOps Engineer</li>
+              <li><strong>Stack:</strong> HAProxy, NGINX, PHP, MySQL, Redis, AWS S3</li>
+              <li><strong>Overview:</strong> Built and maintained a fault-tolerant PHP application environment with web, cache, and database layers.</li>
+            </ul>
+            <p><strong>Key Contributions:</strong></p>
+            <ul>
+              <li>Configured <strong>HAProxy</strong> to load balance traffic across 3 NGINX web servers running PHP applications.</li>
+              <li>Set up a <strong>MySQL master-slave-slave</strong> architecture for improved read performance and fault tolerance.</li>
+              <li>Integrated <strong>Redis caching</strong> to optimize application response times.</li>
+              <li>Implemented <strong>daily and monthly database backups</strong> to Amazon S3 using cron jobs and scripts.</li>
+              <li>Configured monitoring with <strong>Prometheus</strong>, <strong>Grafana</strong>, and <strong>ELK stack</strong> to track system health and logs.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--Projects ends-->
     <!-- Contact Section -->
     <section id="contact" class="py-5 bg-light text-center">
       <div class="container">
